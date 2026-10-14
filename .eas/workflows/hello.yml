@@ -1,0 +1,11 @@
+
+name: Hello
+
+on:
+  push:
+    branches: ['main']
+
+jobs:
+  greet:
+    steps:
+      - run: echo "Hello, Workflows"
